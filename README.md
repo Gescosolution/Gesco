@@ -37,6 +37,25 @@ A continuación se listan algunos requerimientos básicos del sistema:
 
 # Motivación
 
+La principal motivación para iniciar este proyecto fue que consideramos que podríamos estar ante una idea original que podría tener aceptación en el mundo empresarial, y aunque no tenemos un cliente establecido, es fácilmente aplicable a cualquier tipo de empresa que tenga una estructura de un tamaño medio.
+
+Además, otro de los objetivos es obtener diversos conocimientos que nos serán necesarios para poder llevar a cabo el proyecto, conocimientos que si no fuera por esta situación quizás no le pondríamos la dedicación necesaria, pero que sin lugar a duda serán muy útiles en nuestro futuro trabajo.
+
 # Procedimiento de realización
 
+Aunque el proyecto se va a presentar como un “todo”, se busca desarrollarlo de la forma más modular posible, así por ejemplo definiríamos los siguientes grandes módulos de nuestra aplicación:
+
+- Acceso al sistema
+- Gestión de archivos e información
+- Gestión de tareas de proyectos
+- Generación de informes
+
+Como comentábamos en la descripción del proyecto todo el sistema se va a basar en una plataforma web, por lo que el lenguaje elegido para el desarrollo … por su …
+
+Además, vamos a seguir una metodología de desarrollo continuo como es **DevOps**; esto implica que el desarrollo principal de la aplicación del proyecto debe ser una desarrollo basado en pruebas, por lo que desarrollaremos pruebas unitarias para cada una de las funcionalidades de la aplicación, para también basándonos en el funcionamiento de dichas pruebas incorporar un sistema de integración continua que verifique a cada cambio que la estabilidad del programa sigue siendo la que debe ser y que no se han introducido errores que derivarían en problemas durante la ejecución de la aplicación.
+
+Según vayamos consiguiendo que la aplicación sea funcional, solo quedará desplegarla en un PaaS como puede ser Azure (aprovechando que tenemos acceso a cuentas durante 6 meses), pero antes de desplegar la aplicación en el servidor tendremos que provisionarlo con todos los recursos software necesarios.
+
 # Relación con la asignatura
+
+La aplicación principal del proyecto en sí misma no tendría una relación específica con la asignatura al margen de ser una plataforma web, es por eso que aplicarle todos los aspectos que implican un desarrollo continuo como sondesarrollo basado en pruebas, integración continua, provisionamiento software o despliegue automático (temas básicos de la asignatura), es lo que hará que este sea un buen proyecto para realizar.
