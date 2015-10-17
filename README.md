@@ -1,6 +1,6 @@
 # Gesco
 
-Software para la gestión de proyectos.
+Software para la gestión de proyectos. Publicado bajo licencia GNU GENERAL PUBLIC LICENSE Version 2.
 
 # Miembros:
 
