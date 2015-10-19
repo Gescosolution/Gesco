@@ -2,6 +2,8 @@
 
 Software para la gestión de proyectos. Publicado bajo licencia GNU GENERAL PUBLIC LICENSE Version 2.
 
+Este proyecto participa en el Certamen de Proyectos Libres de la Universidad de Granada 2015-2016. Las bases del mismo se encuentran [aquí](https://docs.google.com/document/d/16UsdUV_XXuPUh-Imz4PSgh-2ES_YaAJpZ8fNrbTVpMA/edit).
+
 # Miembros:
 
 - Abel Francisco Agra: [@jfrancisco4490](https://github.com/jfrancisco4490)
@@ -9,6 +11,11 @@ Software para la gestión de proyectos. Publicado bajo licencia GNU GENERAL PUBL
 - Germán Martínez Maldonado: [@germaaan](https://github.com/germaaan)
 - Roberto Morcillo Jiménez: [@robermorji](https://github.com/robermorji)
 - Francisco Navarro González: [@fnavarrogonzalez](https://github.com/fnavarrogonzalez)
+
+# Enlaces:
+
+- [Web de la aplicación](http://gescosolution.github.io/Gesco/)
+- [Twitter](https://twitter.com/gescosolutionCC)
 
 # Descripción:
 
