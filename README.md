@@ -50,19 +50,18 @@ Además, otro de los objetivos es obtener diversos conocimientos que nos serán 
 
 # Procedimiento de realización
 
-Aunque el proyecto se va a presentar como un “todo”, se busca desarrollarlo de la forma más modular posible, así por ejemplo definiríamos los siguientes grandes módulos de nuestra aplicación:
+Aunque el proyecto se va a presentar como un “todo”, se busca desarrollarlo de la forma más modular posible, así que inicialmente vamos a dividirlo en los siguientes módulos de los que se encargará cada uno de los miembros del:
 
-- Acceso al sistema
-- Gestión de archivos e información
-- Gestión de tareas de proyectos
-- Generación de informes
+- Gestión de usuarios y acceso al sistema: [Abel Francisco Agra](https://github.com/jfrancisco4490)
+- Gestión de la comunicación interna ([GescoChat](https://github.com/Gescosolution/GescoChat)): [Fernando Llodra Belda](https://github.com/fllodrab)
+- Gestión de información y generación de informes desde base de datos ([Gesco-DatabaseManagement](https://github.com/Gescosolution/Gesco-DatabaseManagement)): [Germán Martínez Maldonado](https://github.com/germaaan)
+- Gestión de tareas de proyectos ([Planning-task](https://github.com/Gescosolution/Planning-task)): [Roberto Morcillo Jiménez](https://github.com/robermorji)
+- Generación de control de presupuestos: [Francisco Navarro González](https://github.com/fnavarrogonzalez)
 
-Como comentábamos en la descripción del proyecto todo el sistema se va a basar en una plataforma web, por lo que el lenguaje elegido para el desarrollo es **PHP** porque es un lenguaje fácil de utilizar, potente y que además provee de unos mecanismos para gestionar fácilmente bases de datos; también junto a PHP usaremos el framework **[Symfony](https://github.com/symfony/symfony)**, que es uno de los frameworks para crear aplicaciones web más potentes que podemos encontrar para este lenguaje.
-
-Además, vamos a seguir una metodología de desarrollo continuo como es **DevOps**; esto implica que el desarrollo principal de la aplicación del proyecto debe ser una desarrollo basado en pruebas, por lo que desarrollaremos pruebas unitarias para cada una de las funcionalidades de la aplicación, para también basándonos en el funcionamiento de dichas pruebas incorporar un sistema de integración continua que verifique a cada cambio que la estabilidad del programa sigue siendo la que debe ser y que no se han introducido errores que derivarían en problemas durante la ejecución de la aplicación. Las pruebas unitarias se pueden realizar con **[PHPUNIT](https://github.com/sebastianbergmann/phpunit)** y la integración continua usaremos **[Travis CI](https://github.com/travis-ci/travis-ci)**.
-
-Según vayamos consiguiendo que la aplicación sea funcional, solo quedará desplegarla en un PaaS como puede ser Azure (aprovechando que tenemos acceso a cuentas durante 6 meses), pero antes de desplegar la aplicación en el servidor tendremos que provisionarlo con todos los recursos software necesarios. El provisionamiento se puede hacer con **[Ansible](https://github.com/ansible/ansible)** mientras que el despliegue automático se puede hacer con **[Rocketeer](https://github.com/rocketeers/rocketeer)**.
+Cada uno de los módulos tiene su propio repositorio y será añadido como un submódulo Git. El objetivo final es que cuando todos los módulos hayan sido completamente desarrollados, integrarlos todos en esta aplicación para que se pueda hacer un uso conjunto de todas sus funcionalidades desde una única aplicación.
 
 # Relación con la asignatura
 
-La aplicación principal del proyecto en sí misma no tendría una relación específica con la asignatura al margen de ser una plataforma web, es por eso que aplicarle todos los aspectos que implican un desarrollo continuo como son desarrollo basado en pruebas, integración continua, provisionamiento software o despliegue automático (temas básicos de la asignatura), es lo que hará que este sea un buen proyecto para realizar.
+Inicialmente la aplicación principal del proyecto en sí misma no tendría una relación específica con la asignatura al margen de usar **Git** como herramienta de control de versiones, el repositorio de **GitHub** en el que está almacenado el código y los **submódulos Git** como los que se han añadido cada uno de los repositorio de los módulos de los integrandes del grupo.
+
+Sin embargo, al igual que en el caso de cada uno de los módulos, cuando todos se junten en la aplicación principal está también deberá incluir y pasas sus pruebas unitarias, realizar la integración continua y poder ser desplegado de forma automática.
