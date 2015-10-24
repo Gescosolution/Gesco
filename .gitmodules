@@ -1,0 +1,9 @@
+[submodule "DatabaseManagement"]
+	path = DatabaseManagement
+	url = git@github.com:Gescosolution/Gesco-DatabaseManagement.git
+[submodule "Chat"]
+	path = Chat
+	url = git@github.com:Gescosolution/GescoChat.git
+[submodule "PlanningTask"]
+	path = PlanningTask
+	url = git@github.com:Gescosolution/Planning-task.git
