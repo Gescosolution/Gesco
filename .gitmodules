@@ -7,6 +7,3 @@
 [submodule "PlanningTask"]
 	path = PlanningTask
 	url = git@github.com:Gescosolution/Planning-task.git
-[submodule "FinancialManagement"]
-	path = FinancialManagement
-	url = git@github.com:Gescosolution/Financial-Management.git
