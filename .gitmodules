@@ -10,3 +10,4 @@
 [submodule "FinancialManagement"]
 	path = FinancialManagement
 	url = https://github.com/fnavarrogonzalez/Financial-Management.git
+    	branch = master
