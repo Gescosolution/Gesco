@@ -6,7 +6,7 @@ Este proyecto participa en el Certamen de Proyectos Libres de la Universidad de 
 
 # Miembros:
 
-- Abel Francisco Agra: [@jfrancisco4490](https://github.com/jfrancisco4490)
+- Abel Josué Francisco Agra: [@jfrancisco4490](https://github.com/jfrancisco4490)
 - Fernando Llodra Belda: [@fllodrab](https://github.com/fllodrab)
 - Germán Martínez Maldonado: [@germaaan](https://github.com/germaaan)
 - Roberto Morcillo Jiménez: [@robermorji](https://github.com/robermorji)
@@ -52,11 +52,11 @@ Además, otro de los objetivos es obtener diversos conocimientos que nos serán 
 
 Aunque el proyecto se va a presentar como un “todo”, se busca desarrollarlo de la forma más modular posible, así que inicialmente vamos a dividirlo en los siguientes módulos de los que se encargará cada uno de los miembros del:
 
-- Gestión de usuarios y acceso al sistema: [Abel Francisco Agra](https://github.com/jfrancisco4490)
+- Gestión de usuarios y acceso al sistema ([Gesco-UserManagement](https://github.com/Gescosolution/Gesco-UserManagement)): [Abel Josué Francisco Agra](https://github.com/jfrancisco4490)
 - Gestión de la comunicación interna ([GescoChat](https://github.com/Gescosolution/GescoChat)): [Fernando Llodra Belda](https://github.com/fllodrab)
 - Gestión de información y generación de informes desde base de datos ([Gesco-DatabaseManagement](https://github.com/Gescosolution/Gesco-DatabaseManagement)): [Germán Martínez Maldonado](https://github.com/germaaan)
 - Gestión de tareas de proyectos ([Planning-task](https://github.com/Gescosolution/Planning-task)): [Roberto Morcillo Jiménez](https://github.com/robermorji)
-- Generación de control de presupuestos: [Francisco Navarro González](https://github.com/fnavarrogonzalez)
+- Generación de control de presupuestos([Financial-Management](https://github.com/fnavarrogonzalez/Financial-Management)): [Francisco Navarro González](https://github.com/fnavarrogonzalez)
 
 Cada uno de los módulos tiene su propio repositorio y será añadido como un submódulo Git. El objetivo final es que cuando todos los módulos hayan sido completamente desarrollados, integrarlos todos en esta aplicación para que se pueda hacer un uso conjunto de todas sus funcionalidades desde una única aplicación.
 
