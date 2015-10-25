@@ -9,4 +9,4 @@
 	url = git@github.com:Gescosolution/Planning-task.git
 [submodule "FinancialManagement"]
 	path = FinancialManagement
-	url = https://github.com/Gescosolution/Financial-Management.git
+	url = https://github.com/fnavarrogonzalez/Financial-Management.git
