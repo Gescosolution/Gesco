@@ -11,3 +11,6 @@
 	path = FinancialManagement
 	url = https://github.com/fnavarrogonzalez/Financial-Management.git
     	branch = master
+[submodule "Gesco-UserManagement"]
+	path = Gesco-UserManagement
+	url = git@github.com:Gescosolution/Gesco-UserManagement.git
